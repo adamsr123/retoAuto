@@ -1,5 +1,3 @@
-//: Playground - noun: a place where people can play
-
 import UIKit
 
 enum Velocidades : Int
@@ -55,7 +53,7 @@ class Auto {
 }
 
 var auto = Auto()
-print("\(auto.velocidad.rawValue), \(auto.velocidad)")
+print("\(auto.velocidad.rawValue), \(auto.velocidad).")
 for i in 1...20
 {
     var tupla = auto.cambioDeVelocidad()
